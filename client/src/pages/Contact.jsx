@@ -27,8 +27,8 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "http://localhost:8000/api/contact",
-        {
+  "https://intervia-b9ld.onrender.com/api/contact",
+  {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
