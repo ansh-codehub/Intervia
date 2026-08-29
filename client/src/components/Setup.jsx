@@ -12,7 +12,7 @@ import axios from "axios";
 import { useSelector, useDispatch } from "react-redux";
 import { setUserData } from "../redux/userSlice";
 
-const ServerUrl = "http://localhost:8000";
+const ServerUrl = "https://api.intervia.me";
 
 function Setup({ onStart }) {
   const { userData } = useSelector((state) => state.user);
