@@ -46,10 +46,8 @@ function App() {
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/report/:id" element={<InterviewReport />} />
 
-      {/* Footer Pages */}
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-      
     </Routes>
   );
 }
