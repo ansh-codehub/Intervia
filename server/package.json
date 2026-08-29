@@ -21,6 +21,7 @@
     "multer": "^2.2.0",
     "nodemon": "^3.1.14",
     "pdfjs-dist": "^6.2.108",
-    "razorpay": "^2.9.8"
+    "razorpay": "^2.9.8",
+    "resend": "^6.25.0"
   }
 }
