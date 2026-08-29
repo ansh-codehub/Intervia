@@ -12,7 +12,7 @@ import InterviewReport from "./pages/InterviewReport";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
-export const ServerUrl = "https://intervia-b9ld.onrender.com";
+export const ServerUrl = "https://api.intervia.me";
 
 function App() {
   const dispatch = useDispatch();
